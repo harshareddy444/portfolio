@@ -1,0 +1,8 @@
+#box {
+    text-align: center;
+}
+body{
+    background-image: url("tt.jpg");
+    background-size: cover;
+    background-position: center;
+}

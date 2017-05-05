@@ -1,0 +1,51 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>weather in your city</h1>
+                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">
+                <input type="text" id="location" class="form-control" size="10">
+                    </div>
+                <button id="btn" class="btn btn-primary btn-sm" onclick="abc()" value="Click">Get details</button>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4 well" id="box">
+                <p><span id="city"></span></p>
+                <p><span id="country"></span></p>
+            </div>
+            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4 well" id="box">
+                <p><span id="temp"></span></p>
+                <p><span id="minimum"></span></p>
+                <p><span id="maximum"></span></p>
+            </div>
+            <div class="col-lg-4 col-sm-4 col-md-4 col-xs-4 well" id="box">
+                <p><span id="wind"></span></p>
+            </div>
+            
+        </div>
+        </div>
+        <div class="container">
+        <div class="row">
+         <div class="col-*-12 well" >
+                <p><span id="footer"></span></p>
+            </div>
+        </div>
+        </div>
+        
+        
+ <script src="weather.js"></script>
+    </body>
+</html>
