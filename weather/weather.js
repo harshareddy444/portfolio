@@ -1,7 +1,7 @@
  document.getElementById("btn").onclick = function abc(){
       var loc = document.getElementById("location").value;
       var weather = new XMLHttpRequest();
-weather.open("GET", "http://api.openweathermap.org/data/2.5/weather?q="+ loc+"&appid=8c271c2c1a2919bb79b8f31314c52ed9&units=metric",false);
+weather.open("GET", "api.openweathermap.org/data/2.5/weather?q="+ loc+"&appid=8c271c2c1a2919bb79b8f31314c52ed9&units=metric",false);
 weather.send(null);
 
 var r = JSON.parse(weather.response);
