@@ -1,6 +1,11 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
+/*
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 /* Reset */
 
@@ -1573,7 +1578,7 @@
 		color: #888;
 	}
 
-	h1, h2, h3, h4, h5, h6 
+	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -2099,7 +2104,7 @@
 			}
 
 				#nav ul li a.active span:before {
-					color:azure;
+					color: ghostwhite;
 				}
 
 /* Footer */
